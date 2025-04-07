@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Digital | Creative Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Navigation -->
+    <nav class="animated-nav">
+        <div class="nav-container">
+            <div class="logo" id="logo">
+                <span>Nexus</span>Digital
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Animation -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your <span class="highlight">Digital Presence</span></h1>
+            <p class="hero-subtitle">Creative solutions for modern businesses</p>
+            <button class="cta-button pulse-animation">Get Started</button>
+        </div>
+        <div class="hero-image">
+            <div class="floating-shapes">
+                <div class="shape circle"></div>
+                <div class="shape triangle"></div>
+                <div class="shape square"></div>
+            </div>
+            <img src="https://via.placeholder.com/500x400" alt="Business solutions" class="hero-img">
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our <span>Services</span></h2>
+        <div class="services-grid">
+            <div class="service-card" data-service="web">
+                <i class="fas fa-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p>Custom websites that drive results</p>
+                <button class="service-btn">Learn More</button>
+            </div>
+            <div class="service-card" data-service="design">
+                <i class="fas fa-paint-brush service-icon"></i>
+                <h3>UI/UX Design</h3>
+                <p>Beautiful, intuitive interfaces</p>
+                <button class="service-btn">Learn More</button>
+            </div>
+            <div class="service-card" data-service="marketing">
+                <i class="fas fa-bullseye service-icon"></i>
+                <h3>Digital Marketing</h3>
+                <p>Grow your online presence</p>
+                <button class="service-btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <h2>Get In <span>Touch</span></h2>
+        <form id="contact-form" class="animated-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <div class="underline"></div>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+                <div class="underline"></div>
+            </div>
+            <div class="form-group">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <div class="underline"></div>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div class="preference">
+                    <input type="checkbox" id="save-prefs">
+                    <label for="save-prefs">Remember my preferences</label>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="animated-footer">
+        <div class="footer-content">
+            <div class="footer-logo" id="footer-logo">
+                <span>Nexus</span>Digital
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> Nexus Digital. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
